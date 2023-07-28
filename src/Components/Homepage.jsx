@@ -22,7 +22,7 @@ const Homepage = () => {
           Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
           </div>
           <div className='text-black font-serif font-medium text-xs bg-yellow-200 w-min flex'>
-            <Link href={"/"} className=' py-2 w-28 text-center text-base'>Explore Menu</Link>
+            <Link href={"#4"} className=' py-2 w-28 text-center text-base'>Explore Menu</Link>
           </div>
         </div>
 
