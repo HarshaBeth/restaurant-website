@@ -5,14 +5,13 @@ import chefImg from '../Images/chef_img.svg';
 
 const Chefs_Word = () => {
   return (
-    <div className='mt-16'>
-        <Image src={chefBG} className='absolute' />
-
+    <div className='mt-16 bg-[url("/BG_small.svg")]'>
+        
         <div>
-            <div className='relative'>
+            <div className=''>
                 <Image src={chefImg} width={400}/> 
             </div>
-            
+
             <div></div>
         </div>
     </div>
