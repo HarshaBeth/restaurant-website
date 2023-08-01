@@ -3,7 +3,8 @@ import Homepage from "@/Components/Homepage";
 import About_Us from "@/Components/About_Us";
 import Booking from "@/Components/Booking";
 import Menu from "@/Components/Menu";
-import Testimonials from "@/Components/Testimonials";
+import Chefs_Word from "@/Components/Chefs_Word";
+
 
 export default function Home() {
   return (
@@ -23,8 +24,8 @@ export default function Home() {
       {/* Food/Bar Menu Page */}
       <Menu />
 
-      {/* Testimonials */}
-      <Testimonials />
+      {/* CHef's Word */}
+      <Chefs_Word />
     </div>
     
   )

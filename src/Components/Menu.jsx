@@ -12,11 +12,11 @@ const Menu = () => {
 
         <div className='text-gray-400 pt-64 relative top-0 flex flex-col text-7xl pl-48 space-y-12'>
             
-            <Link href={"/"} className='w-80 !font-serif hover:text-gray-950 bg-left-bottom bg-gradient-to-r from-gray-950 to-gray-950 bg-[length:0%_7px] bg-no-repeat hover:bg-[length:99%_7px] transition-all duration-300 ease-in-out'>
+            <Link href={"/bar"} className='w-80 !font-serif hover:text-gray-950 bg-left-bottom bg-gradient-to-r from-gray-950 to-gray-950 bg-[length:0%_7px] bg-no-repeat hover:bg-[length:99%_7px] transition-all duration-300 ease-in-out'>
                 Bar Menu
             </Link>
             
-            <Link href={"/"} className='w-96 !font-serif hover:text-gray-950 bg-left-bottom bg-gradient-to-r from-gray-950 to-gray-950 bg-[length:0px_7px] bg-no-repeat hover:bg-[length:95%_7px] transition-all duration-300 ease-in-out'>
+            <Link href={"/food"} className='w-96 !font-serif hover:text-gray-950 bg-left-bottom bg-gradient-to-r from-gray-950 to-gray-950 bg-[length:0px_7px] bg-no-repeat hover:bg-[length:95%_7px] transition-all duration-300 ease-in-out'>
                 Food Menu
             </Link>
             
