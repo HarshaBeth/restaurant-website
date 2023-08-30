@@ -48,16 +48,16 @@ export const GallerySlider = () => {
   return (
     <Slider {...settings} className='w-[45%]'>
         <div>
-        <Image src={Img1}/>
+        <Image alt="" src={Img1}/>
         </div>
         <div>
-        <Image src={Img2}/>
+        <Image alt="" src={Img2}/>
         </div>
         <div>
-        <Image src={Img3}/>
+        <Image alt="" src={Img3}/>
         </div>
         <div>
-        <Image src={Img4}/>
+        <Image alt="" src={Img4}/>
         </div>
     </Slider>
   )

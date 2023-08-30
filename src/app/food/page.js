@@ -24,12 +24,12 @@ const page = () => {
             <div className='h-screen flex justify-center'>
                 {/* Image */}
                 <div className='h-screen w-full flex flex-col justify-center items-center'>
-                    <Image src={foodPic} width={425} className='max-lg:w-[24rem] max-md:w-[20rem] max-sm:w-[16rem] max-sm:-mt-16 max-md:-mt-6 mt-20  mr-10'/>
+                    <Image alt="" src={foodPic} width={425} className='max-lg:w-[24rem] max-md:w-[20rem] max-sm:w-[16rem] max-sm:-mt-16 max-md:-mt-6 mt-20  mr-10'/>
                 </div>
 
                 {/* Scroll */}
                 <div className=' flex flex-col space-y-4 justify-center items-center absolute bottom-10 lg:right-40 md:right-20 sm:justify-between'>
-                    <Image src={scrollImg} className='w-px h-10 max-sm:h-16 '/>
+                    <Image alt="" src={scrollImg} className='w-px h-10 max-sm:h-16 '/>
                     <span className='font-serif font-light text-yellow-200 text-xs max-sm:text-lg'>SCROLL</span>
                 </div>
             </div>
@@ -50,7 +50,7 @@ const page = () => {
                         {/* Heading */}
                         <div className='text-white flex flex-col items-center'>
                             Menu That Fits Your Palatte
-                            <Image src={RSpoon} width={37} className='pt-2 pb-3'/>
+                            <Image alt="" src={RSpoon} width={37} className='pt-2 pb-3'/>
                             <span className='text-5xl text-yellow-200'>Food Menu</span>
                         </div>
 
@@ -140,7 +140,7 @@ const page = () => {
 
                             {/* Middle */}
                             <div className='max-md:hidden'>
-                                <Image src={BottleImg} width={275} className='max-lg:w-[15rem]'/>
+                                <Image alt="" src={BottleImg} width={275} className='max-lg:w-[15rem]'/>
                             </div>
 
                             {/* Right */}

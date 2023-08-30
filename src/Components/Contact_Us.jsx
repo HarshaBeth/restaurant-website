@@ -25,19 +25,19 @@ const Contact_Us = () => {
                     <span className='text-5xl text-yellow-200 pb-5'>GERÍCHT</span>
 
                     <span className='w-80 text-center !font-sans text-xs leading-5 flex flex-col items-center'>
-                        "The best way to find yourself is to lose yourself in the service of others.”
-                        <Image src={RSpoon} width={37} className='pt-3'/>
+                    &quot;The best way to find yourself is to lose yourself in the service of others.&quot;
+                        <Image alt="" src={RSpoon} width={37} className='pt-3'/>
                     </span>
 
                     <div className='pt-3 flex flex-row space-x-4 items-center'>
                         <Link href={"https://www.facebook.com/"} target='_blank'>
-                            <Image src={fb} width={20} className='hover:scale-150 transition-all ease-in-out'/>
+                            <Image alt="" src={fb} width={20} className='hover:scale-150 transition-all ease-in-out'/>
                         </Link>
                         <Link href={"https://twitter.com/"} target='_blank'>
-                            <Image src={twitter} width={20} className='hover:scale-150 transition-all ease-in-out'/>
+                            <Image alt="" src={twitter} width={20} className='hover:scale-150 transition-all ease-in-out'/>
                         </Link>
                         <Link href={"https://www.instagram.com/"} target='_blank'>
-                            <Image src={insta} width={20} className='hover:scale-150 transition-all ease-in-out'/>
+                            <Image alt="" src={insta} width={20} className='hover:scale-150 transition-all ease-in-out'/>
                         </Link>
                     </div>
                 </div>

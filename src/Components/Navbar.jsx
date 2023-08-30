@@ -41,10 +41,10 @@ const Navbar = () => {
 
             {open ? (
               <>
-                <Image src={close} width={30} height={30}/>
+                <Image alt="" src={close} width={30} height={30}/>
               </>
             ) : (
-              <Image 
+              <Image alt="" 
                 src={burger}
                 width={30}
                 height={30}

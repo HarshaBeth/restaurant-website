@@ -16,7 +16,7 @@ const About_Us = () => {
             <div className='flex flex-col items-end max-md:items-center'>
                 <div className='text-3xl md:text-4xl flex flex-col items-end max-md:items-center font-semibold text-yellow-200 lg:text-5xl'>
                     About Us
-                    <Image src={LSpoon} className='pt-3'/>
+                    <Image alt="" src={LSpoon} className='pt-3'/>
 
                 </div>
                 
@@ -31,14 +31,14 @@ const About_Us = () => {
 
             {/* Knife */}
             <div className='px-8 lg:px-16'>
-                <Image src={bigKnife} height={540} className='h-80 max-md:-rotate-90 duration-500 ease-in-out md:h-auto'/>
+                <Image alt="" src={bigKnife} height={540} className='h-80 max-md:-rotate-90 duration-500 ease-in-out md:h-auto'/>
             </div>
 
             {/* Right side */}
             <div className='flex flex-col max-md:items-center'>
                 <div className='text-3xl md:text-4xl lg:text-5xl flex flex-col items-start max-md:items-center font-semibold text-yellow-200'>
                     Our History
-                    <Image src={RSpoon} width={40} className='pt-3'/>
+                    <Image alt="" src={RSpoon} width={40} className='pt-3'/>
                 </div>
 
                 <div className='w-72 lg:w-96 text-left max-md:text-center text-white py-6 max-md:py-3'>
