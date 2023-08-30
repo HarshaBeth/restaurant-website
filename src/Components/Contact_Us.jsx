@@ -4,13 +4,13 @@ import RSpoon from '../Images/Vector.png';
 import Link from 'next/link';
 import fb from '../Images/facebook.svg';
 import twitter from '../Images/twitter.svg';
-import insta from '../Images/instagram.svg';
+import insta from '../Images/Instagram.svg';
 
 const Contact_Us = () => {
   return (
-    <div id='3' className='h-96 w-full bg-cover bg-center bg-[url("/BG_small.svg")]'>
+    <div id='3' className='h-96 w-full bg-cover bg-center bg-[url("/BG_small.svg")] max-md:h-[32rem]'>
         <div className='flex flex-col justify-center items-center h-full space-y-8'>
-            <div className='text-white flex flex-row space-x-36'>
+            <div className='text-white flex flex-row space-x-36 max-xl:space-x-24 max-lg:space-x-3  max-md:space-x-0 max-md:grid max-md:grid-cols-2 max-md:gap-y-5 max-sm:gap-y-8'>
                 <div className='flex flex-col items-center'>
                     <span className='text-2xl pb-5'>Contact Us</span>
                     <span className='!font-sans text-gray-400 text-xs pb-3'>9 W 53rd St, New York, NY 10019, USA</span>
@@ -21,7 +21,7 @@ const Contact_Us = () => {
                 </div>
 
 
-                <div className='flex flex-col items-center pr-16'>
+                <div className='flex flex-col items-center pr-16 max-md:pr-0 max-md:col-start-1 max-md:row-start-1 max-sm:col-start-1 max-sm:col-end-3 max-sm:row-start-2'>
                     <span className='text-5xl text-yellow-200 pb-5'>GERÍCHT</span>
 
                     <span className='w-80 text-center !font-sans text-xs leading-5 flex flex-col items-center'>
@@ -43,14 +43,14 @@ const Contact_Us = () => {
                 </div>
 
                 {/* Working hours */}
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center max-md:col-start-2'>
                     <span className='text-2xl pb-5'>Working Hours</span>
                     <span className='!font-sans text-gray-400 text-xs pb-2 w-28 text-center leading-5'>Monday-Friday: 08:00 am -12:00 am</span>
                     <span className='!font-sans text-gray-400 text-xs w-28 text-center leading-5'>Saturday-Sunday: 07:00am -11:00 pm</span>
                 </div>
             </div>
 
-            <div className='text-gray-400 !font-sans text-xs'>2021 Gerícht. All Rights reserved.</div>
+            <div className='text-gray-400 !font-sans text-xs pt-5 max-sm:pt-0'>2023 Gerícht. All Rights reserved.</div>
         </div>
     </div>
   )

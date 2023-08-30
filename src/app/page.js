@@ -11,29 +11,32 @@ import Gallery from "@/Components/Gallery";
 export default function Home() {
   return (
     <div>
-      {/* Navbar */}
+      {/* Navbar + reactive*/}
       <Navbar />
 
-      {/* Home */}
+      {/* Home + reactive*/}
       <Homepage />
 
-      {/* About Us */}
+      {/* About Us + reactive*/}
       <About_Us />
 
-      {/* Book A Table */}
+      {/* Book A Table + reactive*/}
       <Booking />
 
-      {/* Food/Bar Menu Page */}
+      {/* Food/Bar Menu Page + reactive*/}
       <Menu />
 
-      {/* CHef's Word */}
+      {/* Chef's Word + reactive*/}
       <Chefs_Word />
 
       {/* Gallery */}
-      <Gallery />
+      {/* <Gallery /> */}
+
 
       {/* Contact Us */}
       <Contact_Us />
+
+      
     </div>
     
   )

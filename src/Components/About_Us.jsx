@@ -1,5 +1,4 @@
 import React from 'react'
-import background from '../Images/BG.svg';
 import Image from 'next/image';
 import LSpoon from '../Images/spoon_left.svg';
 import RSpoon from '../Images/Vector.png';
@@ -8,22 +7,20 @@ import Link from 'next/link';
 
 const About_Us = () => {
   return (
-    <div id='2'>
-        <div className='absolute'>
-            <Image src={background} />
-        </div>
+    <div id='2' className='h-screen w-full bg-cover bg-center bg-[url("/BG_small.svg")]'>
         
-        <div className='relative top-0 z-40 h-screen flex flex-row justify-center items-center'>
+        
+        <div className=' h-screen flex flex-row justify-center items-center max-md:flex-col max-md:-space-y-20'>
 
             {/* Left side */}
-            <div className='flex flex-col items-end'>
-                <div className='text-5xl flex flex-col items-end font-semibold text-yellow-200'>
+            <div className='flex flex-col items-end max-md:items-center'>
+                <div className='text-3xl md:text-4xl flex flex-col items-end max-md:items-center font-semibold text-yellow-200 lg:text-5xl'>
                     About Us
                     <Image src={LSpoon} className='pt-3'/>
 
                 </div>
                 
-                <div className='w-96 text-right text-white py-6'>
+                <div className='w-72 lg:w-96 text-right text-white py-6 max-md:py-3 max-md:text-center'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
                 </div>
 
@@ -33,18 +30,18 @@ const About_Us = () => {
             </div>
 
             {/* Knife */}
-            <div className='px-16'>
-                <Image src={bigKnife} height={540} />
+            <div className='px-8 lg:px-16'>
+                <Image src={bigKnife} height={540} className='h-80 max-md:-rotate-90 duration-500 ease-in-out md:h-auto'/>
             </div>
 
             {/* Right side */}
-            <div>
-                <div className='text-5xl flex flex-col items-start font-semibold text-yellow-200'>
+            <div className='flex flex-col max-md:items-center'>
+                <div className='text-3xl md:text-4xl lg:text-5xl flex flex-col items-start max-md:items-center font-semibold text-yellow-200'>
                     Our History
                     <Image src={RSpoon} width={40} className='pt-3'/>
                 </div>
 
-                <div className='w-96 text-left text-white py-6'>
+                <div className='w-72 lg:w-96 text-left max-md:text-center text-white py-6 max-md:py-3'>
                 Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.
                 </div>
 
