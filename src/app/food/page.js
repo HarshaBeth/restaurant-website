@@ -5,8 +5,8 @@ import React from "react";
 // import scrollImg from '@/Images/Scroll_img.png';
 // import RSpoon from '@/Images/Vector.png';
 // import BottleImg from '@/Images/Cocktail.svg';
-import Contact_Us from "@/components/Contact_Us";
-import FoodNavbar from "@/components/FoodNavbar";
+import Contact_Us from "@/Components/Contact_Us";
+import FoodNavbar from "@/Components/FoodNavbar";
 
 const page = () => {
   return (

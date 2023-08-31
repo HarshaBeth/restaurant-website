@@ -5,9 +5,9 @@ import Link from "next/link";
 // import scrollImg from '@/Images/Scroll_img.png';
 // import RSpoon from '@/Images/Vector.png';
 // import BottleImg from '@/Images/Cocktail.svg';
-import Contact_Us from "@/components/Contact_Us";
+import Contact_Us from "@/Components/Contact_Us";
 
-import BarNavbar from "@/components/BarNavbar";
+import BarNavbar from "@/Components/BarNavbar";
 
 const page = () => {
   return (
