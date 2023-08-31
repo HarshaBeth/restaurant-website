@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import foodPic from '../../Images/food_img.svg';
-import scrollImg from '../../Images/Scroll_img.png';
-import RSpoon from '../../Images/Vector.png';
-import BottleImg from '../../Images/Cocktail.svg';
+// import foodPic from '@/Images/food_img.svg';
+// import scrollImg from '@/Images/Scroll_img.png';
+// import RSpoon from '@/Images/Vector.png';
+// import BottleImg from '@/Images/Cocktail.svg';
 import Contact_Us from '@/Components/Contact_Us';
 import FoodNavbar from '@/Components/FoodNavbar';
+
 
 const page = () => {
   return (
@@ -16,7 +17,7 @@ const page = () => {
         {/* Navbar */}
         <FoodNavbar />
 
-        <div className='h-screen w-full bg-cover bg-center bg-[url("/BG_small.svg")]'>
+        <div className='h-screen w-full bg-cover bg-center bg-[url("/BG.png")]'>
             
             
             <FoodNavbar />
@@ -24,12 +25,12 @@ const page = () => {
             <div className='h-screen flex justify-center'>
                 {/* Image */}
                 <div className='h-screen w-full flex flex-col justify-center items-center'>
-                    <Image alt="" src={foodPic} width={425} className='max-lg:w-[24rem] max-md:w-[20rem] max-sm:w-[16rem] max-sm:-mt-16 max-md:-mt-6 mt-20  mr-10'/>
+                    <Image alt="" src={'/Images/foodHomePic.png'} width={425} height={425} className='max-lg:w-[24rem] max-md:w-[20rem] max-sm:w-[16rem] max-sm:-mt-16 max-md:-mt-6 mt-20  mr-10'/>
                 </div>
 
                 {/* Scroll */}
                 <div className=' flex flex-col space-y-4 justify-center items-center absolute bottom-10 lg:right-40 md:right-20 sm:justify-between'>
-                    <Image alt="" src={scrollImg} className='w-px h-10 max-sm:h-16 '/>
+                    <Image alt="" src={'/Images/Scroll_img.png'} width={0} height={0} className='w-px h-10 max-sm:h-16 '/>
                     <span className='font-serif font-light text-yellow-200 text-xs max-sm:text-lg'>SCROLL</span>
                 </div>
             </div>
@@ -50,7 +51,7 @@ const page = () => {
                         {/* Heading */}
                         <div className='text-white flex flex-col items-center'>
                             Menu That Fits Your Palatte
-                            <Image alt="" src={RSpoon} width={37} className='pt-2 pb-3'/>
+                            <Image alt="" src={'/Images/Vector.png'} width={37} height={37} className='pt-2 pb-3'/>
                             <span className='text-5xl text-yellow-200'>Food Menu</span>
                         </div>
 
@@ -140,7 +141,7 @@ const page = () => {
 
                             {/* Middle */}
                             <div className='max-md:hidden'>
-                                <Image alt="" src={BottleImg} width={275} className='max-lg:w-[15rem]'/>
+                                <Image alt="" src={'/Images/cocktailImage.png'} width={275} height={275} className='max-lg:w-[15rem]'/>
                             </div>
 
                             {/* Right */}

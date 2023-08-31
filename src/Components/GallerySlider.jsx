@@ -5,10 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from 'next/image';
 
-import Img1 from '../Images/Gallery1.svg';
-import Img2 from '../Images/Gallery2.svg';
-import Img3 from '../Images/Gallery3.svg';
-import Img4 from '../Images/Gallery4.svg';
+// import Img1 from '@/Images/Gallery1.svg';
+// import Img2 from '@/Images/Gallery2.svg';
+// import Img3 from '@/Images/Gallery3.svg';
+// import Img4 from '@/Images/Gallery4.svg';
 
 export const GallerySlider = () => {
     var settings = {
@@ -48,7 +48,7 @@ export const GallerySlider = () => {
   return (
     <Slider {...settings} className='w-[45%]'>
         <div>
-        <Image alt="" src={Img1}/>
+        <Image alt="" src={'C:\Users\Raj\Desktop\restaurant-website\public\Images\Gallery1.svg'}/>
         </div>
         <div>
         <Image alt="" src={Img2}/>

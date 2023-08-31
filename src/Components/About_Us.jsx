@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image';
-import LSpoon from '../Images/spoon_left.svg';
-import RSpoon from '../Images/Vector.png';
-import bigKnife from '../Images/knife.svg';
+// import LSpoon from '@/Images/spoon_left.svg';
+// import RSpoon from '@/Images/Vector.png';
+// import bigKnife from '@/Images/knife.svg';
 import Link from 'next/link';
 
 const About_Us = () => {
   return (
-    <div id='2' className='h-screen w-full bg-cover bg-center bg-[url("/BG_small.svg")]'>
+    <div id='2' className='h-screen w-full bg-cover bg-center bg-[url("/BG.png")]'>
         
         
         <div className=' h-screen flex flex-row justify-center items-center max-md:flex-col max-md:-space-y-20'>
@@ -16,7 +16,7 @@ const About_Us = () => {
             <div className='flex flex-col items-end max-md:items-center'>
                 <div className='text-3xl md:text-4xl flex flex-col items-end max-md:items-center font-semibold text-yellow-200 lg:text-5xl'>
                     About Us
-                    <Image alt="" src={LSpoon} className='pt-3'/>
+                    <Image alt="" src={'/Images/spoon_left.svg'} width={40} height={40} className='pt-3'/>
 
                 </div>
                 
@@ -31,14 +31,14 @@ const About_Us = () => {
 
             {/* Knife */}
             <div className='px-8 lg:px-16'>
-                <Image alt="" src={bigKnife} height={540} className='h-80 max-md:-rotate-90 duration-500 ease-in-out md:h-auto'/>
+                <Image alt="" src={'/Images/knifePic.png'} height={540} width={60} className='h-80 max-md:w-10 max-md:-rotate-90 duration-500 ease-in-out md:h-auto'/>
             </div>
 
             {/* Right side */}
             <div className='flex flex-col max-md:items-center'>
                 <div className='text-3xl md:text-4xl lg:text-5xl flex flex-col items-start max-md:items-center font-semibold text-yellow-200'>
                     Our History
-                    <Image alt="" src={RSpoon} width={40} className='pt-3'/>
+                    <Image alt="" src={'/Images/Vector.png'} width={40} height={10} className='pt-3'/>
                 </div>
 
                 <div className='w-72 lg:w-96 text-left max-md:text-center text-white py-6 max-md:py-3'>

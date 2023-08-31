@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Spoon from '../Images/Vector.png';
-import Heroimg from '../Images/Hero_img.svg';
-import Scrollimg from '../Images/Scroll_img.png';
+// import Spoon from '@/Images/Vector.png';
+// import Heroimg from '@/Images/Hero_img.svg';
+// import Scrollimg from '@/Images/Scroll_img.png';
 import Link from 'next/link';
 
 const Homepage = () => {
@@ -13,7 +13,7 @@ const Homepage = () => {
         <div className='pr-24 pt-24 max-lg:pr-0  max-lg:pt-0 max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center'>
           <div className='font-sans font-medium text-2xl flex flex-col space-y-3 max-lg:items-center'>
             <span>Chase The New Flavor</span>
-            <Image alt="" src={Spoon} width={45}/>
+            <Image alt="" src={'/Images/Vector.png'} width={45} height={10}/>
           </div>
 
           <div className='font-serif font-semibold text-6xl w-96 pt-4 text-yellow-200 max-lg:text-center '>The Key To Fine Dining</div>
@@ -28,10 +28,10 @@ const Homepage = () => {
 
         {/* Right Side */}
         <div className='relative max-lg:absolute max-lg:bottom-20 max-lg:right-32 max-md:right-48 max-sm:right-32'>
-          <Image alt="" src={Heroimg} width={470} className='pt-5 max-lg:hidden'/>
+          <Image alt="" src={'/Images/Hero_img.png'} width={470} height={470} className='pt-5 max-lg:hidden'/>
 
           <div className='absolute -right-32 -bottom-8 max-xl:-right-20  flex flex-col justify-center items-center space-y-5'>
-            <Image alt="" src={Scrollimg} className='w-px h-10'/>
+            <Image alt="" src={'/Images/Scroll_img.png'} width={0} height={0} className='w-px h-10'/>
             <span className='font-serif font-light text-yellow-200 text-xs right-6'>SCROLL</span>
           </div>
 

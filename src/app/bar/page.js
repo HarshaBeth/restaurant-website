@@ -1,10 +1,10 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import pic from '../../Images/onTheRocks.svg';
-import scrollImg from '../../Images/Scroll_img.png';
-import RSpoon from '../../Images/Vector.png';
-import BottleImg from '../../Images/Cocktail.svg';
+// import pic from '@/Images/onTheRocks.svg';
+// import scrollImg from '@/Images/Scroll_img.png';
+// import RSpoon from '@/Images/Vector.png';
+// import BottleImg from '@/Images/Cocktail.svg';
 import Contact_Us from '@/Components/Contact_Us';
 
 import BarNavbar from '@/Components/BarNavbar';
@@ -19,18 +19,18 @@ const page = () => {
         <BarNavbar />
 
         {/* Bar Homepage */}
-        <div className='h-screen w-full bg-cover bg-center bg-[url("/BG_small.svg")] relative'>
+        <div className='h-screen w-full bg-cover bg-center bg-[url("/BG.png")] relative'>
 
             
             <div className='h-screen flex justify-center'>
                 {/* Image */}
                 <div className='h-screen w-full flex flex-col justify-center items-center'>
-                    <Image alt=""  src={pic} width={650} className='max-lg:w-[32rem] max-sm:w-[24rem] max-sm:-mt-16  mt-20'/>
+                    <Image alt=""  src={'/Images/barHomepagePic.png'} width={650} height={650} className='max-lg:w-[32rem] max-sm:w-[24rem] max-sm:-mt-16  mt-20'/>
                 </div>
 
                 {/* Scroll */}
                 <div className=' flex flex-col space-y-4 justify-center items-center absolute bottom-10 lg:right-40 md:right-20 sm:justify-between'>
-                    <Image alt="" src={scrollImg} className='w-px h-10 max-sm:h-16 '/>
+                    <Image alt="" src={'/Images/Scroll_img.png'} width={0} height={0} className='w-px h-10 max-sm:h-16 '/>
                     <span className='font-serif font-light text-yellow-200 text-xs max-sm:text-lg'>SCROLL</span>
                 </div>
             </div>
@@ -50,7 +50,7 @@ const page = () => {
                     {/* Heading */}
                     <div className='text-white flex flex-col items-center'>
                         Menu That Fits Your Palatte
-                        <Image alt="" src={RSpoon} width={37} className='pt-2 pb-3'/>
+                        <Image alt="" src={'/Images/Vector.png'} width={37} height={37} className='pt-2 pb-3'/>
                         <span className='text-5xl text-yellow-200'>Bar Menu</span>
                     </div>
 
@@ -137,7 +137,7 @@ const page = () => {
 
                         {/* Middle */}
                         <div className='max-md:hidden'>
-                            <Image alt="" src={BottleImg} width={275} className='max-lg:w-[15rem]'/>
+                            <Image alt="" src={'/Images/cocktailImage.png'} width={275} height={300} className='max-lg:w-[15rem]'/>
 
                         </div>
 

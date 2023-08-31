@@ -1,18 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
-import chefBG from '../Images/Chef_BG.svg';
-import chefImg from '../Images/chef_img.svg';
-import RSpoon from '../Images/Vector.png';
-import Sign from '../Images/Signature.svg';
+// import chefBG from '@/Images/Chef_BG.svg';
+// import chefImg from '@/Images/chef_img.svg';
+// import RSpoon from '@/Images/Vector.png';
+// import Sign from '@/Images/Signature.svg';
 
 const Chefs_Word = () => {
   return (
-    <div id='5' className='h-screen bg-[url("/BG_small.svg")]'>
+    <div id='5' className='h-screen w-full bg-cover bg-center bg-[url("/BG.png")]'>
         
         <div className='flex flex-row justify-center pt-40 h-full space-x-20 max-lg:space-x-10 max-lg:items-center max-sm:space-x-0'>
           
             <div className=''>
-                <Image alt="" src={chefImg} width={400} className='max-lg:w-80 max-md:w-56 max-sm:hidden'/> 
+                <Image alt="" src={'/Images/chefPic.png'} width={400} height={300} className='max-lg:w-80 max-md:w-56 max-sm:hidden'/> 
             </div>
 
             <div className='max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center'>
@@ -20,7 +20,7 @@ const Chefs_Word = () => {
 
               <div className='space-y-2 max-sm:flex max-sm:flex-col max-sm:items-center'>
                 <span className='text-white text-lg'>Chef&apos;s Word</span>
-                <Image alt="" src={RSpoon} width={37}/>
+                <Image alt="" src={'/Images/Vector.png'} width={37} height={10}/>
               </div>
 
               <div className='pt-5 pb-8 max-lg:pb-4'>
@@ -45,7 +45,7 @@ const Chefs_Word = () => {
               </div>
 
               <div className='pt-12 max-sm:pt-6'>
-                <Image alt="" src={Sign} width={200} className='max-sm:w-72'/>
+                <Image alt="" src={'/Images/Signature.svg'} width={200} height={150} className='max-sm:w-72'/>
               </div>
 
               

@@ -2,8 +2,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import burger from '../Images/burger.png';
-import close from '../Images/close.png';
+// import burger from '@/Images/burger.png';
+// import close from '@/Images/close.png';
+
+
 
 
 //Mobile view
@@ -41,11 +43,11 @@ const Navbar = () => {
 
             {open ? (
               <>
-                <Image alt="" src={close} width={30} height={30}/>
+                <Image alt="" src={'/Images/close.png'} width={30} height={30}/>
               </>
             ) : (
               <Image alt="" 
-                src={burger}
+                src='/Images/burger.png'
                 width={30}
                 height={30}
               />

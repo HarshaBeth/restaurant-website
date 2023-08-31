@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import symbol from '../Images/Symbol.svg';
-import RSpoon from '../Images/Vector.png';
+// import symbol from '@/Images/Symbol.svg';
+// import RSpoon from '@/Images/Vector.png';
 import Link from 'next/link';
 
 const Booking = () => {
@@ -9,7 +9,7 @@ const Booking = () => {
     <div className='h-screen bg-gray-950' id='7'>
         
             <div className='relative -top-3 max-lg:top-4 flex flex-row justify-end pr-48 max-lg:justify-center max-lg:pr-0'>
-                <Image alt="" src={symbol} width={130} />
+                <Image alt="" src={'/Images/Symbol.svg'} width={130} height={130} />
             </div>
 
             <div className='w-[100%] h-[70%]  flex flex-row items-center justify-center'>
@@ -18,7 +18,7 @@ const Booking = () => {
                     
                     <div className='text-white text-lg flex flex-col items-center'>
                         Reservations
-                        <Image alt="" src={RSpoon} width={32} className='pt-2'/>
+                        <Image alt="" src={'/Images/Vector.png'} width={32} height={10} className='pt-2'/>
                     </div>
 
                     <div className='text-5xl text-yellow-200 font-medium py-6'>Book  A Table</div>
