@@ -13,7 +13,7 @@ const Contact_Us = () => {
             <div className='text-white flex flex-row space-x-36 max-xl:space-x-24 max-lg:space-x-3  max-md:space-x-0 max-md:grid max-md:grid-cols-2 max-md:gap-y-5 max-sm:gap-y-8'>
                 <div className='flex flex-col items-center'>
                     <span className='text-2xl pb-5'>Contact Us</span>
-                    <span className='!font-sans text-gray-400 text-xs pb-3'>9 W 53rd St, New York, NY 10019, USA</span>
+                    <span className='!font-sans text-gray-400 text-xs pb-3 max-sm:w-32 text-center'>9 W 53rd St, New York, NY 10019, USA</span>
                     
                     <span className='!font-sans text-gray-400 text-xs pb-1'>+1 212-344-1230</span>
                     <span className='!font-sans text-gray-400 text-xs'>+1 212-555-1230</span>
