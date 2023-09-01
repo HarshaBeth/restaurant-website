@@ -8,8 +8,8 @@ const Booking = () => {
   return (
     <div className='h-screen bg-gray-950' id='7'>
         
-            <div className='relative -top-3 max-lg:top-4 flex flex-row justify-end pr-48 max-lg:justify-center max-lg:pr-0'>
-                <Image alt="" src={'/Images/Symbol.svg'} width={130} height={130} />
+            <div className='relative -top-3 max-lg:top-4 flex flex-row justify-end pr-48 max-lg:justify-center max-lg:pr-0 max-sm:top-8'>
+                <Image alt="" src={'/Images/Symbol.svg'} width={130} height={130} className='max-sm:w-20' />
             </div>
 
             <div className='w-[100%] h-[70%]  flex flex-row items-center justify-center'>
@@ -21,7 +21,7 @@ const Booking = () => {
                         <Image alt="" src={'/Images/Vector.png'} width={32} height={10} className='pt-2'/>
                     </div>
 
-                    <div className='text-5xl text-yellow-200 font-medium py-6'>Book  A Table</div>
+                    <div className='text-5xl text-yellow-200 font-medium py-6 max-sm:text-3xl'>Book  A Table</div>
 
                     <div className='space-x-7 pt-8 max-xl:flex max-xl:flex-col max-xl:justify-center max-xl:items-center max-xl:space-x-0 max-xl:space-y-3 max-xl:pt-0 max-xl:w-[100%]'>
                         <select name="people" id="" className='bg-gray-950 text-white w-64 max-2xl:w-56 h-10 border border-solid border-gray-500 px-3 text-sm

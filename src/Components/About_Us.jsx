@@ -20,7 +20,7 @@ const About_Us = () => {
 
                 </div>
                 
-                <div className='w-72 lg:w-96 text-right text-white py-6 max-md:py-3 max-md:text-center'>
+                <div className='max-sm:w-60 sm:w-72 lg:w-96 text-right text-white py-6 max-md:py-3 max-md:text-center'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
                 </div>
 
@@ -31,7 +31,7 @@ const About_Us = () => {
 
             {/* Knife */}
             <div className='px-8 lg:px-16'>
-                <Image alt="" src={'/Images/knifePic.png'} height={540} width={60} className='h-80 max-md:w-10 max-md:-rotate-90 duration-500 ease-in-out md:h-auto'/>
+                <Image alt="" src={'/Images/knifePic.png'} height={540} width={60} className='h-80 max-md:w-10 max-sm:h-72 max-sm:w-9 max-md:-rotate-90 duration-500 ease-in-out md:h-auto'/>
             </div>
 
             {/* Right side */}
@@ -41,7 +41,7 @@ const About_Us = () => {
                     <Image alt="" src={'/Images/Vector.png'} width={40} height={10} className='pt-3'/>
                 </div>
 
-                <div className='w-72 lg:w-96 text-left max-md:text-center text-white py-6 max-md:py-3'>
+                <div className='max-sm:w-60 sm:w-72 lg:w-96 text-left max-md:text-center text-white py-6 max-md:py-3'>
                 Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.
                 </div>
 

@@ -16,7 +16,7 @@ const Homepage = () => {
             <Image alt="" src={'/Images/Vector.png'} width={45} height={10}/>
           </div>
 
-          <div className='font-serif font-semibold text-6xl w-96 pt-4 text-yellow-200 max-lg:text-center max-sm:text-4xl max-sm:w-72'>The Key To Fine Dining</div>
+          <div className='font-serif font-semibold text-6xl w-96 pt-4 text-yellow-200 max-lg:text-center max-sm:text-4xl max-sm:w-56'>The Key To Fine Dining</div>
 
           <div className='w-80 text-sm py-7 max-lg:text-center'>
           Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 

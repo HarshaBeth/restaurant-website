@@ -45,7 +45,7 @@ const Chefs_Word = () => {
               </div>
 
               <div className='pt-12 max-sm:pt-6'>
-                <Image alt="" src={'/Images/Signature.svg'} width={200} height={150} className='max-sm:w-72'/>
+                <Image alt="" src={'/Images/Signature.svg'} width={200} height={150} className='max-sm:w-60'/>
               </div>
 
               

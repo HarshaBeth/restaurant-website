@@ -27,7 +27,7 @@ const FoodNavbar = () => {
 
         
         {/* Navbar */}
-        <div className='bg-black h-28 flex justify-between  items-center fixed top-0 px-28 z-50 w-screen'>
+        <div className='bg-black h-28 flex justify-between  items-center fixed top-0 px-28 z-50 w-screen max-sm:px-10'>
                 
                 <div className='lg:hidden' onClick={() => setOpen(!open)}>
                     <MobileNav open={open} setOpen={setOpen}/>
@@ -39,7 +39,7 @@ const FoodNavbar = () => {
                 </div>
 
                 {/* Hamburger button for smaller screens */}
-                <div className='lg:hidden h-8 relative'>
+                <div className='lg:hidden h-9 relative'>
                     <button onClick={() => setOpen(!open)} >
 
                         {open ? (
@@ -48,7 +48,7 @@ const FoodNavbar = () => {
                         </>
                         ) : (
                         <Image alt="" 
-                            src={'/Images/beer.png'}
+                            src={'/Images/pizza.png'}
                             width={35}
                             height={35}
                         />

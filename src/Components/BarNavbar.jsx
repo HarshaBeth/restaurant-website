@@ -24,7 +24,7 @@ const BarNavbar = () => {
   return (
     <div>
         {/* Navbar */}
-        <div className='bg-black h-28 flex justify-between  items-center fixed top-0 px-28 z-50 w-screen'>
+        <div className='bg-black h-28 flex justify-between  items-center fixed top-0 px-28 z-50 w-screen max-sm:px-10'>
                 
                 <div className='lg:hidden' onClick={() => setOpen(!open)}>
                     <MobileNav open={open} setOpen={setOpen}/>

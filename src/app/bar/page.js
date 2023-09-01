@@ -61,14 +61,14 @@ const page = () => {
                 height={37}
                 className="pt-2 pb-3"
               />
-              <span className="text-5xl text-yellow-200">Bar Menu</span>
+              <span className="text-5xl text-yellow-200 max-sm:text-4xl">Bar Menu</span>
             </div>
 
             {/* Menu */}
             <div className="pt-10 flex flex-row items-center space-x-7 max-md:space-x-0  max-md:divide-x-2 max-md:divide-yellow-200">
               {/* Left */}
               <div className="text-white flex flex-col items-center max-md:pr-3">
-                <span className="text-3xl">Wine & Beer</span>
+                <span className="text-3xl max-sm:text-2xl">Wine & Beer</span>
 
                 <div className="pt-8 space-y-6">
                   {/* Each menu item */}
@@ -77,7 +77,7 @@ const page = () => {
                       <span className="pr-4 text-yellow-200 max-lg:pr-0">
                         Chapel Hill Shiraz
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif">$56</span>
                     </div>
                     {/* Bottle Size */}
@@ -93,7 +93,7 @@ const page = () => {
                       <span className="pr-9 text-yellow-200 max-lg:pr-5">
                         Catena Malbec
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif">$59</span>
                     </div>
                     {/* Bottle Size */}
@@ -109,7 +109,7 @@ const page = () => {
                       <span className="pr-9 text-yellow-200 max-lg:pr-5">
                         La Vieille Rosé
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif">$44</span>
                     </div>
                     {/* Bottle Size */}
@@ -125,7 +125,7 @@ const page = () => {
                       <span className="pr-9 text-yellow-200 max-lg:pr-5">
                         Rhino Pale Ale
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif">$31</span>
                     </div>
                     {/* Bottle Size */}
@@ -141,7 +141,7 @@ const page = () => {
                       <span className="pr-10 text-yellow-200 max-lg:pr-6">
                         Irish Guinness
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif">$26</span>
                     </div>
                     {/* Bottle Size */}
@@ -167,16 +167,16 @@ const page = () => {
 
               {/* Right */}
               <div className="text-white flex flex-col items-center max-md:pl-3">
-                <span className="text-3xl">Cocktails</span>
+                <span className="text-3xl max-sm:text-2xl">Cocktails</span>
 
                 <div className="pt-8 space-y-6">
                   {/* Each menu item */}
                   <div className="flex flex-col">
                     <div className="flex flex-row items-center space-x-5">
-                      <span className="pr-16 text-yellow-200 max-lg:pr-7">
+                      <span className="pr-16 text-yellow-200 max-lg:pr-7 max-sm:pr-5">
                         Aperol Spritz
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif">$20</span>
                     </div>
                     {/* Bottle Size */}
@@ -200,18 +200,18 @@ const page = () => {
 
                   <div className="flex flex-col">
                     <div className="flex flex-row items-center space-x-4">
-                      <span className="pr-12 text-yellow-200 max-lg:pr-3">
+                      <span className="pr-12 text-yellow-200 max-lg:pr-3 max-sm:pr-0">
                         Dark &apos;N&apos; Stormy
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif pl-1">$16</span>
                     </div>
                     {/* Bottle Size */}
                     <div className=" text-gray-400 text-xs font-normal space-x-2 pt-1">
                       <span className="!font-sans ">Dark rum</span>
                       <span className="!font-sans ">|</span>
-                      <span className="!font-sans ">Ginger beer</span>
-                      <span className="!font-sans ">|</span>
+                      <span className="!font-sans max-sm:hidden">Ginger beer</span>
+                      <span className="!font-sans  max-sm:hidden">|</span>
                       <span className="!font-sans sm:hidden">...</span>
                       <span className="!font-sans max-sm:hidden">
                         Slice of lime
@@ -221,10 +221,10 @@ const page = () => {
 
                   <div className="flex flex-col">
                     <div className="flex flex-row items-center space-x-5">
-                      <span className="pr-24 text-yellow-200 max-lg:pr-14">
+                      <span className="pr-24 text-yellow-200 max-lg:pr-14 max-sm:pr-12">
                         Daiquiri
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif pl-1 max-lg:pl-0">$10</span>
                     </div>
                     {/* Bottle Size */}
@@ -233,47 +233,46 @@ const page = () => {
                       <span className="!font-sans ">|</span>
                       <span className="!font-sans ">Citrus juice</span>
                       <span className="!font-sans ">|</span>
-                      <span className="!font-sans ">Sugar</span>
+                      <span className="!font-sans sm:hidden">...</span>
+                      <span className="!font-sans  max-sm:hidden">Sugar</span>
                     </div>
                   </div>
 
                   <div className="flex flex-col">
                     <div className="flex flex-row items-center space-x-5">
-                      <span className="pr-14 text-yellow-200 max-lg:pr-5">
+                      <span className="pr-14 text-yellow-200 max-lg:pr-5 max-sm:pr-3">
                         Old Fashioned
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif">$31</span>
                     </div>
                     {/* Bottle Size */}
                     <div className=" text-gray-400 text-xs font-normal space-x-2 pt-1">
                       <span className="!font-sans ">Bourbon</span>
                       <span className="!font-sans ">|</span>
-                      <span className="!font-sans ">Brown sugar</span>
-                      <span className="!font-sans ">|</span>
+                      <span className="!font-sans  max-sm:hidden">Brown sugar</span>
+                      <span className="!font-sans  max-sm:hidden">|</span>
                       <span className="!font-sans lg:hidden">...</span>
-                      <span className="!font-sans max-lg:hidden">
-                        Angostura Bitters
-                      </span>
+                      <span className="!font-sans max-lg:hidden">Angostura Bitters</span>
                     </div>
                   </div>
 
                   <div className="flex flex-col">
                     <div className="flex flex-row items-center space-x-5">
-                      <span className="pr-24 text-yellow-200 max-lg:pr-14">
+                      <span className="pr-24 text-yellow-200 max-lg:pr-14 max-sm:pr-12">
                         Negroni
                       </span>
-                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:w-2" />
+                      <hr className="h-px bg-white border-0 w-20 max-lg:w-10 max-sm:hidden" />
                       <span className="!font-serif max-lg:pl-0">$26</span>
                     </div>
                     {/* Bottle Size */}
                     <div className=" text-gray-400 text-xs font-normal space-x-2 pt-1">
                       <span className="!font-sans ">Gin</span>
                       <span className="!font-sans ">|</span>
-                      <span className="!font-sans ">Sweet Vermouth</span>
-                      <span className="!font-sans ">|</span>
-                      <span className="!font-sans max-lg:hidden">Campari</span>
-                      <span className="!font-sans max-lg:hidden">|</span>
+                      <span className="!font-sans  max-sm:hidden">Sweet Vermouth</span>
+                      <span className="!font-sans  max-sm:hidden">|</span>
+                      <span className="!font-sans max-lg:hidden max-sm:inline">Campari</span>
+                      <span className="!font-sans max-lg:hidden max-sm:inline">|</span>
                       <span className="!font-sans lg:hidden">...</span>
                       <span className="!font-sans max-lg:hidden">
                         Orange garnish
