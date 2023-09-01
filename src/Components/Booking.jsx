@@ -8,7 +8,7 @@ const Booking = () => {
   return (
     <div className='h-screen bg-gray-950' id='7'>
         
-            <div className='relative -top-3 max-lg:top-4 flex flex-row justify-end pr-48 max-lg:justify-center max-lg:pr-0 max-sm:top-8'>
+            <div className='relative -top-3 max-lg:top-4 flex flex-row justify-end pr-48 max-lg:justify-center max-lg:pr-0 max-sm:top-2'>
                 <Image alt="" src={'/Images/Symbol.svg'} width={130} height={130} className='max-sm:w-20' />
             </div>
 

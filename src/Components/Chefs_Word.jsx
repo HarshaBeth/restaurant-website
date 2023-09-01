@@ -9,7 +9,7 @@ const Chefs_Word = () => {
   return (
     <div id='5' className='h-screen w-full bg-cover bg-center bg-[url("/BG.png")]'>
         
-        <div className='flex flex-row justify-center pt-40 h-full space-x-20 max-lg:space-x-10 max-lg:items-center max-sm:space-x-0'>
+        <div className='flex flex-row justify-center pt-40 h-full space-x-20 max-lg:space-x-10 max-lg:items-center max-md:space-x-3'>
           
             <div className=''>
                 <Image alt="" src={'/Images/chefPic.png'} width={400} height={300} className='max-lg:w-80 max-md:w-56 max-sm:hidden'/> 
