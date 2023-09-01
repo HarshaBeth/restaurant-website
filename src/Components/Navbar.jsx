@@ -30,7 +30,7 @@ function MobileNav({open, setOpen}) {
 const Navbar = () => {
   const[open, setOpen] = useState(false);
   return (
-    <div className='h-32 bg-gray-950 flex justify-between items-center px-28 fixed top-0 z-50 w-screen'>
+    <div className='h-32 bg-gray-950 flex justify-between items-center px-28 fixed top-0 z-50 w-screen max-sm:px-10'>
         <div className='lg:hidden' onClick={() => setOpen(!open)}>
           <MobileNav open={open} setOpen={setOpen}/>
         </div>
