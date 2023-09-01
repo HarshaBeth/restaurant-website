@@ -5,7 +5,7 @@ import Booking from "@/Components/Booking";
 import Menu from "@/Components/Menu";
 import Chefs_Word from "@/Components/Chefs_Word";
 import Contact_Us from "@/Components/Contact_Us";
-import Gallery from "@/Components/Gallery";
+
 
 export default function Home() {
   return (
