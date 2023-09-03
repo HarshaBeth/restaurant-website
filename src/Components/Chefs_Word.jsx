@@ -9,7 +9,7 @@ const Chefs_Word = () => {
   return (
     <div id='5' className='h-screen w-full bg-cover bg-center bg-[url("/BG.png")]'>
         
-        <div className='flex flex-row justify-center pt-40 h-full space-x-20 max-lg:space-x-10 max-lg:items-center max-md:space-x-3'>
+        <div className='flex flex-row justify-center pt-40 h-full space-x-20 max-lg:space-x-5 max-lg:items-center max-md:space-x-3'>
           
             <div className=''>
                 <Image alt="" src={'/Images/chefPic.png'} width={400} height={300} className='max-lg:w-80 max-md:w-56 max-sm:hidden'/> 
@@ -27,10 +27,10 @@ const Chefs_Word = () => {
                 <span className='text-5xl text-yellow-200 max-lg:text-4xl'>What We Believe In</span>
               </div>
 
-              <div className='text-gray-400 flex flex-row w-96 max-sm:w-72 sm:absolute text-justify'>
+              <div className='text-gray-400 flex flex-row w-96 max-sm:w-72 sm:absolute max-sm:mr-5 text-justify max-sm:text-center'>
                 <span className='text-6xl text-white'>&quot;</span>
                 <span className='pt-2.5 pl-1.5 !font-sans text-xs italic '>Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit. 
-                  <span className='sm:hidden text-gray-400 !font-sans text-xs italic '>auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</span>
+                <span className='sm:hidden text-gray-400 !font-sans text-xs italic'>auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</span>
                 </span>
                 
               </div>
