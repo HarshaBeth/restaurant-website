@@ -40,16 +40,17 @@ const Booking = () => {
         addReservation(data)
 
     }
-    useEffect(() => {
+    useEffect(async () => {
+        const bookedHours = await fetchAvailableHours();
         const getAvailableHours = () => {
             for (let i = 6; i <= 10; i++) {
                 setAvailableHours((prev) => [...prev, i])
             }
         }
         getAvailableHours();
-        fetchAvailableHours();
+        console.log("DATA>>>>",bookedHours)
+        console.log(availableHours.filter((item) => bookedHours.includes(`${item}:00 PM`)))
     }, []);
-
 
     
     const days = getNextFourDays();

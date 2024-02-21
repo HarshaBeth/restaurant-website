@@ -23,12 +23,12 @@ export const fetchAvailableHours = async (data) => {
         const data = []
         const querySnapshot = await getDocs(q);
         querySnapshot.forEach((doc) => {
-            data.push(doc.data())
+            data.push(doc.data().time)
         });
         console.log("🚀 --------------------------------------------------------------🚀")
         console.log("🚀 ~ file: dbServices.js:29 ~ fetchAvailableHours ~ data:", data)
         console.log("🚀 --------------------------------------------------------------🚀")
-
+        return data;
     } catch (error) {
         console.log("Error")
         console.log(error)
